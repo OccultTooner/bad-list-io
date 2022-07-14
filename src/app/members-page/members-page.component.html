@@ -1,0 +1,11 @@
+<div>
+    <h2 style="text-align: center;">Meet the crew</h2>
+    <div style="display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;">
+        <div *ngFor="let member of membersJson">
+            <app-profile-card [name]="member.name" [links]="member.links" [role]="member.role" [image]="member.image">
+            </app-profile-card>
+        </div>
+    </div>
+</div>
