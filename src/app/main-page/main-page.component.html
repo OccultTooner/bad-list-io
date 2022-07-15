@@ -54,22 +54,18 @@
 
     <div class="hero-full-wrapper">
         <div class="grid">
-            <div class="gutter-sizer"></div>
-            <div class="grid-sizer"></div>
-            <div *ngFor="let item of movieList; index as i;">
-
-                <div class="grid-item">
-                    <img class="img-responsive" alt="" src="{{item.movieImage}}">
-                    <a href="./project.html" class="project-description">
-                        <div class="project-text-holder">
-                            <div class="project-text-inner">
-                                <h3>{{totalTasks-i}}  {{item.movieTitle}}</h3>
-                                <p>{{item.movieDescription}}</p>
-                            </div>
+            <!-- <div class="gutter-sizer"></div> -->
+            <!-- <div class="grid-sizer"></div> -->
+            <div class="grid-item" *ngFor="let item of movieList; index as i;">
+                <img class="img-responsive" alt="" src="{{item.movieImage}}">
+                <a href="./project.html" class="project-description">
+                    <div class="project-text-holder">
+                        <div class="project-text-inner">
+                            <h3>{{totalTasks-i}}) {{item.movieTitle}}</h3>
+                            <p>{{item.movieDescription}}</p>
                         </div>
-                    </a>
-                </div>
+                    </div>
+                </a>
             </div>
-
         </div>
     </div>
