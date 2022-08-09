@@ -143,8 +143,13 @@ export class MainPageComponent implements OnInit {
       movieDescription: "https://www.imdb.com/title/tt2109248/?ref_=nv_sr_srsg_0"
     },
     {
+      movieImage: "~../../assets/images/bobbleheads.jpg",
+      movieTitle: "Bobbleheads",
+      movieDescription: "https://www.imdb.com/title/tt13292206/?ref_=nv_sr_srsg_0"
+    },
+    {
       movieImage: "~../../assets/images/marmaduke.jpg",
-      movieTitle: "Marmaduke netflix",
+      movieTitle: "Marmaduke Netflix",
       movieDescription: "https://www.imdb.com/title/tt8746404/?ref_=nv_sr_srsg_0"
     },
     {
