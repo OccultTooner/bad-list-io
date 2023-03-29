@@ -175,6 +175,11 @@ export class MainPageComponent implements OnInit {
       movieDescription: "https://www.imdb.com/title/tt2123146/?ref_=nm_knf_t2"
     },
     {
+      movieImage: "~../../assets/images/WinnieThePooh.jpg",
+      movieTitle: "Winnie the Pooh: Blood and Honey",
+      movieDescription: "https://www.imdb.com/title/tt19623240/"
+    },
+    {
       movieImage: "~../../assets/images/xmasLight.jpg",
       movieTitle: "Christmas light",
       movieDescription: "https://www.imdb.com/title/tt7784186/"
