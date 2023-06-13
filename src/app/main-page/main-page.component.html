@@ -14,7 +14,7 @@
         <div class="navbar-collapse" id="navbar-collapse">
             <div class="site-header hidden-xs">
                 <a class="site-brand" href="./index.html" title="">
-                    <img class="img-responsive site-logo" alt="" src="~../../assets/images/bebopHill.png">
+                    <img class="img-responsive site-logo" alt="" src="~../../assets/images/Camera.png">
                     Bad Movie Ranks
                 </a>
                 <p>Rank of all the bad movies that has been watched on the anxiety
@@ -49,7 +49,7 @@
     <div *ngIf="selectedPage==='home'" class="hero-full-wrapper">
         <div class="grid">
             <div class="grid-item" *ngFor="let item of movieList; index as i;">
-                <img class="img-responsive" alt="" src="{{item.movieImage}}">
+                <img class="img-responsive" alt="" src="{{item.movieImage}}" >
                 <a href="{{item.movieDescription}}" target="_blank" class="project-description">
                     <div class="project-text-holder">
                         <div class="project-text-inner">
@@ -66,7 +66,7 @@
      <div *ngIf="selectedPage==='best'" class="hero-full-wrapper">
         <div class="grid">
             <div class="grid-item" *ngFor="let item of top10Best; index as i;">
-                <img class="img-responsive" alt="" src="{{item.movieImage}}">
+                <img class="img-responsive" alt="" src="{{item.movieImage}}" >
                 <a href="{{item.movieDescription}}" target="_blank" class="project-description">
                     <div class="project-text-holder">
                         <div class="project-text-inner">
@@ -83,7 +83,7 @@
      <div *ngIf="selectedPage==='worse'" class="hero-full-wrapper">
         <div class="grid">
             <div class="grid-item" *ngFor="let item of top10Worse; index as i;">
-                <img class="img-responsive" alt="" src="{{item.movieImage}}">
+                <img class="img-responsive" alt="" src="{{item.movieImage}}" >
                 <a href="{{item.movieDescription}}" target="_blank" class="project-description">
                     <div class="project-text-holder">
                         <div class="project-text-inner">
